@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Collapsible sidebar using Bootstrap 4</title>
+    <title>İmtahan Nəticə Sistemi</title>
 
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
 
@@ -30,7 +30,7 @@
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Bootstrap Sidebar</h3>
+                <h3>Əsas menyu</h3>
                 <strong>BS</strong>
             </div>
 
@@ -38,57 +38,58 @@
                 <li class="active">
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fas fa-home"></i>
-                        Home
+                        Tələbə əməliyyatları
                     </a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
-                            <a href="#">Home 1</a>
+                            <a href="#">Tələbə əlavə et</a>
                         </li>
                         <li>
-                            <a href="#">Home 2</a>
+                            <a href="#">Tələbə axtar</a>
                         </li>
                         <li>
-                            <a href="#">Home 3</a>
+                            <a href="#">Tələbə sil</a>
                         </li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fas fa-briefcase"></i>
-                        About
-                    </a>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fas fa-copy"></i>
-                        Pages
+                        Dərslər
                     </a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="#">Page 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 3</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
                     <a href="#">
-                        <i class="fas fa-image"></i>
-                        Portfolio
+                        <i class="fas fa-envelope"></i>
+                        Mesajlar
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fas fa-question"></i>
-                        FAQ
+                        <i class="fas fa-bell"></i>
+                        Bildirişlər
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fas fa-paper-plane"></i>
-                        Contact
+                        <i class="fas fa-chart-line"></i>
+                        Statistika
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-chart-pie"></i>
+                        Qrafiklər
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-images"></i>
+                        Qaleriya
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        Tənzimləmələr
                     </a>
                 </li>
             </ul>
