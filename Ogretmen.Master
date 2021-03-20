@@ -42,13 +42,19 @@
                     </a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
-                            <a href="#">Tələbə əlavə et</a>
+                            <a href="#">
+                                <i class="fas fa-user-plus"></i>
+                                Tələbə əlavə et</a>
                         </li>
                         <li>
-                            <a href="#">Tələbə axtar</a>
+                            <a href="#">
+                                <i class="fas fa-user"></i>
+                                Tələbə axtar</a>
                         </li>
                         <li>
-                            <a href="#">Tələbə sil</a>
+                            <a href="#">
+                                <i class="fas fa-user-minus"></i>
+                                Tələbə sil</a>
                         </li>
                     </ul>
                 </li>
@@ -94,7 +100,7 @@
                 </li>
             </ul>
 
-            
+
         </nav>
 
         <!-- Page Content  -->

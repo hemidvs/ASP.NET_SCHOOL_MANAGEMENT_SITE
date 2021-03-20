@@ -7,13 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace ASP.NET_SCHOOL_MANAGEMENT_SITE
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class OgrenciEkle : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            DataSetTableAdapters.TBL_OGRENCITableAdapter dt = new DataSetTableAdapters.TBL_OGRENCITableAdapter();
-            Repeater1.DataSource = dt.OgrenciListesi();
-            Repeater1.DataBind();
+
         }
     }
 }

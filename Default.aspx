@@ -10,35 +10,29 @@
             <th scope="col">AD</th>
             <th scope="col">SOYAD</th>
             <th scope="col">TELEFON</th>
-            <th scope="col">EMAIL</th>
+            <th scope="col">E-MAIL</th>
             <th scope="col">ŞİFRƏ</th>
         </tr>
         <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-            </tr>
+
+            <asp:Repeater ID="Repeater1" runat="server">
+
+                <ItemTemplate>
+                    <tr>
+                        <td><%#Eval("OGRID")%></td>
+                        <td><%#Eval("OGRAD")%></td>
+                        <td><%#Eval("OGRSOYAD")%></td>
+                        <td><%#Eval("OGRTELEFON")%></td>
+                        <td><%#Eval("OGRMAIL")%></td>
+                        <td><%#Eval("OGRSIFRE")%></td>
+                    </tr>
+                </ItemTemplate>
+
+            </asp:Repeater>
+
         </tbody>
     </table>
 
 </asp:Content>
+
+<%--<th scope="row">1</th>--%>
