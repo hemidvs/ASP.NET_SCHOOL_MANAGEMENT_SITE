@@ -7,17 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace ASP.NET_SCHOOL_MANAGEMENT_SITE
 {
-    public partial class OgrenciEkle : System.Web.UI.Page
+    public partial class OgrenciSil : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            int id = Convert.ToInt32(Request.QueryString["OGRID"].ToString());
 
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
             DataSetTableAdapters.TBL_OGRENCITableAdapter dt = new DataSetTableAdapters.TBL_OGRENCITableAdapter();
-            dt.OgrenciEkle(TxtOgrAd.Text, TxtOgrSoyad.Text, TxtOgrTelefon.Text, TxtOgrMail.Text, TxtOgrSifre.Text, TxtOgrFoto.Text);
+            dt.OgrenciSil(id);
             Response.Redirect("Default.aspx");
         }
     }

@@ -42,19 +42,19 @@
                     </a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
-                            <a href="#">
+                            <a href="Default.Aspx">
+                                <i class="fas fa-users"></i>
+                                Tələbə siyahısı</a>
+                        </li>
+                        <li>
+                            <a href="OgrenciEkle.Aspx">
                                 <i class="fas fa-user-plus"></i>
                                 Tələbə əlavə et</a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="OgrenciBul.Aspx">
                                 <i class="fas fa-user"></i>
                                 Tələbə axtar</a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fas fa-user-minus"></i>
-                                Tələbə sil</a>
                         </li>
                     </ul>
                 </li>
