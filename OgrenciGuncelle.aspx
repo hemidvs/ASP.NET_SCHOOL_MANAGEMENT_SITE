@@ -42,7 +42,7 @@
                 <asp:TextBox ID="TxtOgrFoto" runat="server" CssClass="form-control"></asp:TextBox>
             </div>
             <br />
-            <asp:Button ID="Button1" runat="server" Text="Yadda Saxla" CssClass="btn btn-info" />
+            <asp:Button ID="Button1" runat="server" Text="Yadda Saxla" CssClass="btn btn-info" OnClick="Button1_Click" />
         </div>
 
     </form>
