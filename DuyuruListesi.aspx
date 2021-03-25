@@ -23,8 +23,8 @@
                         <td><%#Eval("DUYURUICERIK")%></td>
                         <td><%#Eval("DUYURUOGRT")%></td>
                         <td>
-                            <%--<asp:HyperLink ID="HyperLink1" NavigateUrl='<%# "~/OgrenciSil.aspx?OGRID="+Eval("OGRID") %>' runat="server" CssClass="btn btn-danger">SİL</asp:HyperLink>
-                            <asp:HyperLink ID="HyperLink2" NavigateUrl='<%# "~/OgrenciGuncelle.aspx?OGRID="+Eval("OGRID") %>' runat="server" CssClass="btn btn-success">DƏYİŞ</asp:HyperLink>--%>
+                            <asp:HyperLink ID="HyperLink1" NavigateUrl='<%# "~/DuyuruSil.aspx?DUYURUID="+Eval("DUYURUID") %>' runat="server" CssClass="btn btn-danger">SİL</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink2" NavigateUrl='<%# "~/DuyuruGuncelle.aspx?DUYURUID="+Eval("DUYURUID") %>' runat="server" CssClass="btn btn-success">DƏYİŞ</asp:HyperLink>
                         </td>
                     </tr>
                 </ItemTemplate>

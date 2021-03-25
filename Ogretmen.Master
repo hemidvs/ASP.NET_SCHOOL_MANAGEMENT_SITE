@@ -42,17 +42,17 @@
                     </a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
-                            <a href="Default.Aspx">
+                            <a href="Default.aspx">
                                 <i class="fas fa-users"></i>
                                 Tələbə siyahısı</a>
                         </li>
                         <li>
-                            <a href="OgrenciEkle.Aspx">
+                            <a href="OgrenciEkle.aspx">
                                 <i class="fas fa-user-plus"></i>
                                 Tələbə əlavə et</a>
                         </li>
                         <li>
-                            <a href="OgrenciBul.Aspx">
+                            <a href="OgrenciBul.aspx">
                                 <i class="fas fa-user"></i>
                                 Tələbə axtar</a>
                         </li>
@@ -75,12 +75,12 @@
                     </a>
                     <ul class="collapse list-unstyled" id="homeSubmenu2">
                         <li>
-                            <a href="DuyuruListesi.Aspx">
+                            <a href="DuyuruListesi.aspx">
                                 <i class="fas fa-users"></i>
                                 Bildirişlər siyahısı</a>
                         </li>
                         <li>
-                            <a href="DuyuruEkle.Aspx">
+                            <a href="DuyuruEkle.aspx">
                                 <i class="fas fa-user-plus"></i>
                                 Bildiriş yarat</a>
                         </li>
