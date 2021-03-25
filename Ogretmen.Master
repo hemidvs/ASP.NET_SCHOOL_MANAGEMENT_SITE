@@ -68,11 +68,23 @@
                         Mesajlar
                     </a>
                 </li>
-                <li>
-                    <a href="#">
+                <li class="active">
+                    <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fas fa-bell"></i>
                         Bildirişlər
                     </a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu2">
+                        <li>
+                            <a href="DuyuruListesi.Aspx">
+                                <i class="fas fa-users"></i>
+                                Bildirişlər siyahısı</a>
+                        </li>
+                        <li>
+                            <a href="DuyuruEkle.Aspx">
+                                <i class="fas fa-user-plus"></i>
+                                Bildiriş yarat</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#">
