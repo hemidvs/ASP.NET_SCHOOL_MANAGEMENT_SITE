@@ -334,6 +334,7 @@
     <Content Include="Dosyalar1\sidebar\style5.css" />
     <Content Include="Dosyalar1\StyleSheet2.css" />
     <Content Include="DuyuruEkle.aspx" />
+    <Content Include="DuyuruGuncelle.aspx" />
     <Content Include="DuyuruListesi.aspx" />
     <Content Include="DuyuruSil.aspx" />
     <Content Include="OgrenciEkle.aspx" />
@@ -360,6 +361,13 @@
     </Compile>
     <Compile Include="DuyuruEkle.aspx.designer.cs">
       <DependentUpon>DuyuruEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DuyuruGuncelle.aspx.cs">
+      <DependentUpon>DuyuruGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DuyuruGuncelle.aspx.designer.cs">
+      <DependentUpon>DuyuruGuncelle.aspx</DependentUpon>
     </Compile>
     <Compile Include="DuyuruListesi.aspx.cs">
       <DependentUpon>DuyuruListesi.aspx</DependentUpon>
