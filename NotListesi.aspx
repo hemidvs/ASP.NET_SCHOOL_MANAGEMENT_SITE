@@ -5,7 +5,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <table class="table table-bordered table-hover">
         <tr>
-            <th scope="col">QIYMƏT ID</th>
             <th scope="col">TƏLƏBƏ ID</th>
             <th scope="col">AD SOYAD</th>
             <th scope="col">DƏRS ADI</th>
@@ -22,7 +21,6 @@
 
                 <itemtemplate>
                     <tr>
-                        <td><%#Eval("NOTID")%></td>
                         <td><%#Eval("OGRENCIID")%></td>
                         <td><%#Eval("OGRENCIADSOYAD")%></td>
                         <td><%#Eval("DERSAD")%></td>
