@@ -5,7 +5,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <table class="table table-bordered table-hover">
         <tr>
-            <th scope="col">TƏLƏBƏ İD</th>
+            <th scope="col">QIYMƏT ID</th>
+            <th scope="col">TƏLƏBƏ ID</th>
             <th scope="col">AD SOYAD</th>
             <th scope="col">DƏRS ADI</th>
             <th scope="col">İMTAHAN 1</th>
@@ -21,6 +22,7 @@
 
                 <itemtemplate>
                     <tr>
+                        <td><%#Eval("NOTID")%></td>
                         <td><%#Eval("OGRENCIID")%></td>
                         <td><%#Eval("OGRENCIADSOYAD")%></td>
                         <td><%#Eval("DERSAD")%></td>
@@ -30,7 +32,7 @@
                         <td><%#Eval("ORTALAMA")%></td>
                         <td><%#Eval("DURUM")%></td>
                         <td>
-                            <asp:HyperLink ID="HyperLink2" NavigateUrl='<%# "~/NotGuncelle.aspx?OGRID="+Eval("OGRENCIID") %>' runat="server" CssClass="btn btn-success">DƏYİŞ</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink2" NavigateUrl='<%# "~/NotGuncelle.aspx?notID="+Eval("NOTID") %>' runat="server" CssClass="btn btn-success">DƏYİŞ</asp:HyperLink>
                         </td>
                     </tr>
                 </itemtemplate>

@@ -1373,6 +1373,8 @@ namespace ASP.NET_SCHOOL_MANAGEMENT_SITE {
             
             private global::System.Data.DataColumn columnDURUM;
             
+            private global::System.Data.DataColumn columnNOTID;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public OgrNotlarDataTable() {
@@ -1472,6 +1474,14 @@ namespace ASP.NET_SCHOOL_MANAGEMENT_SITE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn NOTIDColumn {
+                get {
+                    return this.columnNOTID;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -1517,7 +1527,8 @@ namespace ASP.NET_SCHOOL_MANAGEMENT_SITE {
                         SINAV2,
                         SINAV3,
                         ORTALAMA,
-                        DURUM};
+                        DURUM,
+                        null};
                 rowOgrNotlarRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowOgrNotlarRow);
                 return rowOgrNotlarRow;
@@ -1548,6 +1559,7 @@ namespace ASP.NET_SCHOOL_MANAGEMENT_SITE {
                 this.columnSINAV3 = base.Columns["SINAV3"];
                 this.columnORTALAMA = base.Columns["ORTALAMA"];
                 this.columnDURUM = base.Columns["DURUM"];
+                this.columnNOTID = base.Columns["NOTID"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1569,10 +1581,17 @@ namespace ASP.NET_SCHOOL_MANAGEMENT_SITE {
                 base.Columns.Add(this.columnORTALAMA);
                 this.columnDURUM = new global::System.Data.DataColumn("DURUM", typeof(bool), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnDURUM);
+                this.columnNOTID = new global::System.Data.DataColumn("NOTID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnNOTID);
                 this.columnOGRENCIID.AllowDBNull = false;
                 this.columnOGRENCIADSOYAD.ReadOnly = true;
                 this.columnOGRENCIADSOYAD.MaxLength = 61;
                 this.columnDERSAD.MaxLength = 50;
+                this.columnNOTID.AutoIncrement = true;
+                this.columnNOTID.AutoIncrementSeed = -1;
+                this.columnNOTID.AutoIncrementStep = -1;
+                this.columnNOTID.AllowDBNull = false;
+                this.columnNOTID.ReadOnly = true;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2269,6 +2288,17 @@ namespace ASP.NET_SCHOOL_MANAGEMENT_SITE {
                 }
                 set {
                     this[this.tableOgrNotlar.DURUMColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public int NOTID {
+                get {
+                    return ((int)(this[this.tableOgrNotlar.NOTIDColumn]));
+                }
+                set {
+                    this[this.tableOgrNotlar.NOTIDColumn] = value;
                 }
             }
             
@@ -3982,6 +4012,7 @@ namespace ASP.NET_SCHOOL_MANAGEMENT_SITE.DataSetTableAdapters {
             tableMapping.ColumnMappings.Add("SINAV3", "SINAV3");
             tableMapping.ColumnMappings.Add("ORTALAMA", "ORTALAMA");
             tableMapping.ColumnMappings.Add("DURUM", "DURUM");
+            tableMapping.ColumnMappings.Add("NOTID", "NOTID");
             this._adapter.TableMappings.Add(tableMapping);
         }
         

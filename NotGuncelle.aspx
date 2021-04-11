@@ -8,8 +8,13 @@
 
         <div class="form-group">
             <div>
-                <asp:Label for="DropDownList1" runat="server">Müəllim</asp:Label>
+                <asp:Label for="DropDownList1" runat="server">Dərs adı</asp:Label>
                 <asp:DropDownList ID="DropDownList1" runat="server" CssClass="form-control"></asp:DropDownList>
+            </div>
+            <br />
+            <div>
+                <asp:Label for="TxtOgrAd" runat="server">Tələbə ID</asp:Label>
+                <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control"></asp:TextBox>
             </div>
             <br />
             <div>

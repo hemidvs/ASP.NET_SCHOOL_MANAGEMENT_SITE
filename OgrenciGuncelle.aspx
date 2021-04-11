@@ -8,7 +8,7 @@
 
         <div class="form-group">
             <div>
-                <asp:Label for="TxtOgrId" runat="server">Tələbə İd</asp:Label>
+                <asp:Label for="TxtOgrId" runat="server">Tələbə ID</asp:Label>
                 <asp:TextBox ID="TxtOgrId" runat="server" CssClass="form-control"></asp:TextBox>
             </div>
             <br />
