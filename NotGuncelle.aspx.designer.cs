@@ -24,102 +24,93 @@ namespace ASP.NET_SCHOOL_MANAGEMENT_SITE
         protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
 
         /// <summary>
-        /// DropDownList1 control.
+        /// TxtDersAd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.TextBox TxtDersAd;
 
         /// <summary>
-        /// TextBox2 control.
+        /// TxtOgrID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox TxtOgrID;
 
         /// <summary>
-        /// TxtOgrAd control.
+        /// TxtOgrAdSoyad control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtOgrAd;
+        protected global::System.Web.UI.WebControls.TextBox TxtOgrAdSoyad;
 
         /// <summary>
-        /// TxtOgrSoyad control.
+        /// TxtSinav1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtOgrSoyad;
+        protected global::System.Web.UI.WebControls.TextBox TxtSinav1;
 
         /// <summary>
-        /// TxtOgrTelefon control.
+        /// TxtSinav2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtOgrTelefon;
+        protected global::System.Web.UI.WebControls.TextBox TxtSinav2;
 
         /// <summary>
-        /// TxtOgrMail control.
+        /// TxtSinav3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtOgrMail;
+        protected global::System.Web.UI.WebControls.TextBox TxtSinav3;
 
         /// <summary>
-        /// TxtOgrSifre control.
+        /// TxtOrt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtOgrSifre;
+        protected global::System.Web.UI.WebControls.TextBox TxtOrt;
 
         /// <summary>
-        /// TxtOgrFoto control.
+        /// TxtDurum control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtOgrFoto;
+        protected global::System.Web.UI.WebControls.TextBox TxtDurum;
 
         /// <summary>
-        /// TextBox1 control.
+        /// BtnHesapla control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.Button BtnHesapla;
 
         /// <summary>
-        /// Button2 control.
+        /// BtnGuncelle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
-
-        /// <summary>
-        /// Button1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button BtnGuncelle;
     }
 }
